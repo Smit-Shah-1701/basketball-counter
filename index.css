@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: darkblue;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+h1{
+    font-size: 70px;
+    color: orangered;
+    text-align: center;
+}
+
+h2{
+    font-size: 60px;
+    color: yellow;
+}
+.score{
+    background: black;
+    height: 160px;
+    margin: 5%;
+    width: 160px;
+    font-size: 120px;
+    text-align: center;    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    margin: 10%;
+    font-size: 40px;
+    font-family: inherit;
+    background: darkblue;
+    border-color: white;
+    color: greenyellow;
+}

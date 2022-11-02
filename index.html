@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Basketball Scorecard</h1>
+        <div class="container">
+            <div>
+                <h2>HOME</h2>
+                <div class="score" id="home-score">0</div>
+                <div class="container">
+                    <button onclick="add1H()">+1</button>
+                    <button onclick="add2H()">+2</button>
+                    <button onclick="add3H()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h2>AWAY</h2>
+                <div class="score" id="away-score">0</div>
+                <div class="container">
+                    <button onclick="add1A()">+1</button>
+                    <button onclick="add2A()">+2</button>
+                    <button onclick="add3A()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
